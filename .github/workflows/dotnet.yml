@@ -6,6 +6,9 @@ on:
     
 jobs:
   build:
+    dotnet build --configuration Release
+
+dotnet build -h|--help
 
     runs-on: ubuntu-latest
 
